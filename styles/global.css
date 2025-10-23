@@ -1,0 +1,8 @@
+html, body, #__next { margin:0; padding:0; font-family: Arial, sans-serif; }
+.page { display:flex; flex-direction:column; min-height:100vh; }
+.header { display:flex; justify-content:space-between; padding:16px 24px; border-bottom:1px solid #ddd; }
+.container { padding:24px; flex:1; }
+.footer { padding:16px 24px; border-top:1px solid #ddd; }
+.grid { display:flex; gap:16px; flex-wrap:wrap; }
+.card { border:1px solid #eee; padding:12px; border-radius:8px; width:220px; }
+.btn { display:inline-block; margin-top:8px; padding:8px 12px; text-decoration:none; border:1px solid #000; border-radius:4px; }
